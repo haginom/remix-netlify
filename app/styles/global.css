@@ -358,7 +358,7 @@ article > * {
   padding-bottom: 1rem;
 }
 
-@media (max-width: 568px) {
+@media (min-width: 568px) {
   article {
     margin-top: 2rem;
     width: 100%;
