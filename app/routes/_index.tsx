@@ -5,10 +5,13 @@ import { useLocation } from "react-router-dom";
 export const meta: MetaFunction = () => {
   return [
     { title: "Saki Portfolio" },
-    { name: "description", content: "Welcome to Remix!" },
+    {
+      name: "viewport",
+      content: "width=device-width,initial-scale=1",
+    },
+    { name: "description", content: "Welcome to my Portfolio site" },
   ];
 };
-
 export const Index = () => {
   const { pathname } = useLocation();
 

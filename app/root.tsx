@@ -12,14 +12,15 @@ import {
 } from "@remix-run/react";
 import NavBar from "./components/navBar";
 
-export const meta: MetaFunction = () => [
-  {
-    charset: "utf-8",
-    title: "New Remix App",
-    viewport: "width=device-width,initial-scale=1",
-  },
-];
-
+export const meta: MetaFunction = () => {
+  return [
+    {
+      name: "viewport",
+      content: "width=device-width,initial-scale=1",
+    },
+    { title: "Portfolio Site" },
+  ];
+};
 export const links: LinksFunction = () => {
   return [
     {

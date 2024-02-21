@@ -7,6 +7,10 @@ import { useState, useMemo, MouseEvent } from "react";
 export const meta: MetaFunction = () => {
   return [
     { title: "Saki Portfolio" },
+    {
+      name: "viewport",
+      content: "width=device-width,initial-scale=1",
+    },
     { name: "description", content: "My Work" },
   ];
 };
